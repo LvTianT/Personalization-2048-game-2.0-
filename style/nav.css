@@ -1,0 +1,41 @@
+.nav {
+  display: flex;
+  height: 68px;
+  padding: 30px 42px;
+  justify-content: space-between;
+  align-items: center; }
+  .nav h1 {
+    position: relative;
+    left: 0px;
+    top: 20px;
+    width: 82px;
+    height: 48px;
+    margin-right: 62px;
+    font-size: 34px;
+    font-weight: 700; }
+  .nav .score {
+    display: flex; }
+    .nav .score > div {
+      width: 68px;
+      height: 68px;
+      display: flex;
+      background-color: #bbaea0;
+      border-radius: 6px;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 10px;
+      display: flex; }
+      .nav .score > div .label {
+        color: #eee4d9;
+        font-size: 15px;
+        font-weight: 700;
+        text-align: center;
+        justify-content: center; }
+      .nav .score > div .value {
+        color: #ffffff;
+        font-size: 28px;
+        font-weight: 700;
+        text-align: center;
+        justify-content: center; }
+
+/*# sourceMappingURL=nav.css.map */
